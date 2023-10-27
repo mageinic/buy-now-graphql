@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "04bc7209-70c8-496d-a09f-85fe6b88bfca",
+		"name": "BuyNowGraphQl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "storeConfig",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "{\nstoreConfig {\nbuynow_enable,\nbutton_title,\nkeep_cart_products,\nshow_on_product_detail_page,\nshow_on_wishlist_product\nshow_on_listing_page,\nshow_on_compare_list_product,\nshow_on_related_product,\nshow_on_upsell_product,\nshow_on_cross_sell_product,\nshow_on_widget_product\n}\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{baseurl}}/graphql",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
