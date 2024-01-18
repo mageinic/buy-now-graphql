@@ -7,7 +7,7 @@
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageinic/buynowgraphql
+composer require mageinic/buy-now-graphql
 
 php bin/magento maintenance:enable
 php bin/magento setup:upgrade
@@ -22,7 +22,7 @@ Magento 2 Buy Now GraphQL requires installing [MageINIC Buy Now](https://github.
 
 **Or Install via composer [Recommend]**
 ```
-composer require mageinic/buynow
+composer require mageinic/buy-now
 ```
 
 ## 2. How to use

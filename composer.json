@@ -1,10 +1,10 @@
 {
-    "name": "mageinic/buynowgraphql",
+    "name": "mageinic/buy-now-graphql",
     "description": "Buy Now GraphQL is a part of MageINIC Buy Now extension that adds GraphQL features. This extension extends Buy Now definitions.",
     "require": {
         "php": "^8.0",
         "mageinic/core": "1.0.*",
-        "mageinic/buynow": "1.0.*",
+        "mageinic/buy-now": "1.0.*",
         "magento/module-graph-ql": "100.4.*",
         "magento/module-catalog" : "104.0.*",
         "magento/module-wishlist" : "101.2.*"
